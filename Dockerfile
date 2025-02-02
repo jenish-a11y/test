@@ -1,4 +1,4 @@
-M ubuntu:20.04
+FROM ubuntu:20.04
 WORKDIR /opt/pas
 RUN mkdir -p /opt/pas
 RUN apt-get update && apt-get install -y python3 python3-pip
